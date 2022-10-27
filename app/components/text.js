@@ -1,5 +1,5 @@
 import React from "react";
-import { Text as ReactNativeText } from "react-native";
+import { Text as ReactNativeText, Platform } from "react-native";
 import colors from "../config/colors";
 const TEXT_STYLE = {
     color: colors.dark,

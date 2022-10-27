@@ -8,10 +8,10 @@ export function NavigationButtons(props) {
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={styles.button} onPress={() => onPressPrimary()} >
+      <TouchableOpacity style={styles.button} onPress={onPressPrimary} >
         <Text text={textPrimary} />
       </TouchableOpacity>
-      <TouchableOpacity style={styles.button} onPress={() => onPressSecondary()} >
+      <TouchableOpacity style={styles.button} onPress={onPressSecondary} >
         <Text text={textSecondary} />
       </TouchableOpacity>
     </View>
